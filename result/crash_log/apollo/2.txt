@@ -1,0 +1,10 @@
+
+
+    File "/usr/local/lib/python3.8/dist-packages/paddle/nn/layer/rnn.py", line 1975, in __init__
+	super().__init__(
+    File "/usr/local/lib/python3.8/dist-packages/paddle/nn/layer/rnn.py", line 1480, in __init__
+	cell_fw = rnn_cls(input_size, hidden_size, **kwargs)
+    File "/usr/local/lib/python3.8/dist-packages/paddle/nn/layer/rnn.py", line 971, in __init__
+	raise ValueError(
+
+    ValueError: hidden_size of LSTMCell must be greater than 0, but now equals to var shape_0.tmp_0_slice_1 : LOD_TENSOR.shape().dtype(int32).stop_gradient(True)

@@ -1,0 +1,1 @@
+OSError: (External) CUBLAS error(7). [Hint: 'CUBLAS_STATUS_INVALID_VALUE'] [operator < fc > error]

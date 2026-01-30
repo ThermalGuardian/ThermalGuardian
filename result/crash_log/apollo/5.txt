@@ -1,0 +1,2 @@
+RuntimeError: (NotFound) Operator (nms_gpu) is not registered.
+[Hint: op_info_ptr should not be null.] (at /paddle/paddle/fluid/framework/op_info.h:152)

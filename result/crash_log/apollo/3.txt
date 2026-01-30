@@ -1,0 +1,6 @@
+
+
+    File "/usr/local/lib/python3.8/dist-packages/paddle/nn/layer/rnn.py", line 776, in __init__
+	raise ValueError(
+
+    ValueError: hidden_size of SimpleRNNCell must be greater than 0, but now equals to var shape_0.tmp_0_slice_1 : LOD_TENSOR.shape().dtype(int32).stop_gradient(True)
